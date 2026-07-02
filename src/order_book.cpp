@@ -1,4 +1,5 @@
 #include "order_book.hpp"
+#include <mutex>
 #include <stdexcept>
 
 OrderBook::OrderBook() = default;
